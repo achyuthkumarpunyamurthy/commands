@@ -1,0 +1,5 @@
+# general & master slave
+docker run -p 8080:8080 -p 50000:50000 -d -v jenkins_home:/var/jenkins_home jenkins/jenkins:lts
+
+# general
+docker run -p 8081:8080 -d -v jenkins_home:/var/jenkins_home jenkins/jenkins:lts
